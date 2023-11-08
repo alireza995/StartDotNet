@@ -5,8 +5,8 @@ var stop = false;
 while (!stop)
 {
     Console.WriteLine(YourCode.WriteHere());
-    Console.WriteLine("Press any key to restart project or ESC to exit.");
+    Console.WriteLine("Press any key to restart project or Space to exit.");
     var key = Console.ReadKey().Key;
-    stop = key == ConsoleKey.Escape;
+    stop = key == ConsoleKey.Spacebar;
 }
-Console.WriteLine("Project stopped");
+Console.WriteLine(Environment.NewLine + "Project stopped");
