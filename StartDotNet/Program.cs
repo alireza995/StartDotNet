@@ -6,8 +6,9 @@ while (!stop)
 {
     try
     {
+        var result = YourCode.WriteHere();
         Console.WriteLine("Result:");
-        Console.WriteLine(YourCode.WriteHere() + Environment.NewLine);
+        Console.WriteLine(result + Environment.NewLine);
     }
     catch
     {
