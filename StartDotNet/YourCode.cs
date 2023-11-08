@@ -1,6 +1,6 @@
 namespace StartDotNet;
 
-public class YourCode
+public static class YourCode
 {
     public static string WriteHere()
     {
@@ -30,6 +30,6 @@ public class YourCode
         
         ////////////////////////پایان کد./////////////////////
 
-        return result.ToString();
+        return result.ToString()!;
     }
 }
