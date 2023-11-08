@@ -4,7 +4,7 @@ public class YourCode
 {
     public static string WriteHere()
     {
-        var result = "";
+        var result = new object();
         
         /////////////////////شروع کد/////////////////////////
         
@@ -30,6 +30,6 @@ public class YourCode
         
         ////////////////////////پایان کد./////////////////////
 
-        return result;
+        return result.ToString();
     }
 }
