@@ -4,17 +4,19 @@ Console.WriteLine("Project started for first time");
 var stop = false;
 while (!stop)
 {
+    string result;
+    Console.WriteLine("Process starting...");
     try
     {
-        var result = YourCode.WriteHere();
-        Console.WriteLine("Result:");
-        Console.WriteLine(result + Environment.NewLine);
+        result = YourCode.WriteHere();
     }
     catch
     {
         continue;
     }
-
+    Console.WriteLine("Process ended.");
+    Console.WriteLine("Result:");
+    Console.WriteLine(result + Environment.NewLine);
     Console.WriteLine("Press any key to restart project or Space to exit.");
     var key = Console.ReadKey().Key;
     stop = key == ConsoleKey.Spacebar;
